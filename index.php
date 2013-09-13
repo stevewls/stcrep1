@@ -2,9 +2,9 @@
 
 class MainPage {
 
-    var $body;
+    public $body;
 
-    function render() {
+    public function render() {
         echo $this->body;
     }
 
